@@ -469,7 +469,7 @@ function renderGrblState(data) {
     } else if (parserstate.feedrate) {
 	velocity = parserstate.feedrate * factor;
     }
-    spindleSpeed = parserstate.spindle;
+    spindleSpeed = status.spindle;
     spindleDirection = modal.spindle;
 
     feedOverride = status.ov[0]/100.0;
