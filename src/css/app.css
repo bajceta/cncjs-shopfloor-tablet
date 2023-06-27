@@ -291,7 +291,7 @@
   [data-route="workspace"] .btn,
   [data-route="workspace"] .form-control {
     font-size: 28px;
-    height: 52px;
+    height: 68px;
   }
   [data-route="workspace"] .position {
     font-size: 28px;
@@ -315,4 +315,8 @@
       width: 460px;
       height: 190px;
   }
+}
+
+.mdi-go {
+    height: 50px;
 }
